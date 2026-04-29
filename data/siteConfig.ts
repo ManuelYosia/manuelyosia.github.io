@@ -18,6 +18,6 @@ export const siteConfig = {
     github: "https://github.com/ManuelYosia",
     linkedin: "#",
     email: "mailto:manuelyosia44@gmail.com",
-    cv: "/assets/docs/cv.pdf",
+    cv: "/assets/docs/CV 1.0 - Personal Info (En Ver).docx.pdf",
   },
 };

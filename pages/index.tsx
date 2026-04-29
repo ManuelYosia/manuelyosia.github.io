@@ -12,8 +12,8 @@ export default function Home() {
   return (
     <Layout>
       <Head>
-        <title>LUME.DEV | Aspiring Web Developer</title>
-        <meta name="description" content="Portfolio of LUME.DEV - Aspiring Web Developer & Informatics Student" />
+        <title>Portfolio | ManuelYosia</title>
+        <meta name="description" content="Portfolio of ManuelYosia - Informatics Student & Software Engineer" />
       </Head>
       <Hero />
       <About />
