@@ -27,10 +27,10 @@ const About = () => {
           </div>
 
           <p className="text-lg text-on-surface-variant leading-[1.75] font-light">
-            My journey in Informatics has been driven by a fascination with how data moves and how users interact with complexity. I don't just write scripts; I build scalable structures that bridge the gap between human intuition and machine efficiency.
+            {siteConfig.about.description1}
           </p>
           <p className="text-lg text-on-surface-variant leading-[1.75] font-light">
-            Currently focusing on modern frontend frameworks and robust backend systems, I strive to create products that are as aesthetically pleasing as they are technically sound.
+            {siteConfig.about.description2}
           </p>
 
           {/* Stats */}

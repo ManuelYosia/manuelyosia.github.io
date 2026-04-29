@@ -18,7 +18,7 @@ const Navbar = () => {
       <nav className="flex justify-between items-center px-6 md:px-10 max-w-7xl mx-auto">
         {/* Logo */}
         <Link href="/" className="text-xl font-black tracking-tighter gradient-text select-none">
-          LUME.DEV
+          MANUEL.DEV
         </Link>
 
         {/* Desktop links */}

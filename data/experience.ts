@@ -8,22 +8,22 @@ export interface Experience {
 
 export const experiences: Experience[] = [
   {
-    role: "Open Source Contributor",
-    company: "Global Dev Community",
-    period: "2023 — PRESENT",
-    description: "Actively maintaining several React component libraries and contributing to large-scale CSS-in-JS frameworks used by thousands of developers worldwide.",
-    isCurrent: true,
+    role: "Project Manager — IT Research Team",
+    company: "Universitas Wijaya Kusuma Surabaya",
+    period: "JULY 2024 — JANUARY 2025",
+    description: "Led a cross-functional team in developing a web-based educational game using Unity for academic research. Managed task distribution, timelines, and team communication to ensure the project was delivered on schedule and aligned with research objectives.",
+    isCurrent: false,
   },
   {
-    role: "Lead Developer (Academic)",
-    company: "University Informatics Lab",
-    period: "2022 — 2023",
-    description: "Headed a team of 5 students to build a campus-wide resource management system using PostgreSQL and Node.js, delivering the project on time for 1,200+ active users.",
+    role: "Team Lead — Hackathon",
+    company: "Universitas Ciputra",
+    period: "MARCH 2024",
+    description: "Led a team in analyzing a real-world business case using the Business Model Canvas framework. Facilitated structured discussions and presented the final solution to a panel of evaluators.",
   },
   {
-    role: "Junior Web Intern",
-    company: "Nexus Tech Solutions",
-    period: "2021 — 2022",
-    description: "Assisted in the migration of legacy jQuery codebases to modern React.js architectures for corporate clients, reducing load time by 40%.",
+    role: "Project Manager — Google Solution Challenge",
+    company: "Google Developer Student Clubs",
+    period: "SEPTEMBER 2023 — JANUARY 2024",
+    description: "Coordinated a team in developing an SDG-aligned solution for a global challenge. Managed workflow, task assignments, and progress tracking using Notion to maintain alignment and ensure timely delivery.",
   },
 ];

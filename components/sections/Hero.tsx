@@ -1,4 +1,5 @@
 import React from 'react';
+import { siteConfig } from '@/data/siteConfig';
 
 const Hero = () => {
   return (
@@ -15,8 +16,8 @@ const Hero = () => {
 
         {/* Headline */}
         <h1 className="animate-fade-up delay-100 text-5xl md:text-7xl lg:text-8xl font-black tracking-tighter leading-[0.92] text-on-surface">
-          Aspiring Web<br />Developer & <br />
-          <span className="gradient-text">Informatics Student</span>
+          {siteConfig.name}.<br />
+          <span className="gradient-text">{siteConfig.role}</span>
         </h1>
 
         {/* Sub */}
