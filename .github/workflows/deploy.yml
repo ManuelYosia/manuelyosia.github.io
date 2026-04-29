@@ -27,12 +27,14 @@ jobs:
           cache: "npm"
       - name: Setup Pages
         uses: actions/configure-pages@v4
-        with:
-          static_site_generator: next
       - name: Install dependencies
-        run: npm install
+        run: npm ci
       - name: Build with Next.js
-        run: npx next build
+        run: npm run build
+      - name: Debug Output
+        run: |
+          ls -R
+          [ -d "out" ] && echo "out directory exists" || echo "out directory MISSING"
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
