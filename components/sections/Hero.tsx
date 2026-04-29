@@ -35,7 +35,7 @@ const Hero = () => {
             <span className="material-symbols-outlined text-lg">alternate_email</span>
             Contact Me
           </a>
-          <a href="#" className="btn-ghost inline-flex items-center gap-2 px-8 py-4 rounded-xl font-bold text-base">
+          <a href={siteConfig.socials.cv} download className="btn-ghost inline-flex items-center gap-2 px-8 py-4 rounded-xl font-bold text-base">
             <span className="material-symbols-outlined text-lg">download</span>
             Download CV
           </a>

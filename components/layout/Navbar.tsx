@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import Link from 'next/link';
+import { siteConfig } from '@/data/siteConfig';
 
 const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -32,7 +33,7 @@ const Navbar = () => {
 
         <div className="flex items-center gap-4">
           {/* Download CV */}
-          <a href="#" className="btn-primary hidden md:inline-flex items-center gap-2 px-5 py-2 rounded-xl text-sm font-semibold">
+          <a href={siteConfig.socials.cv} download className="btn-primary hidden md:inline-flex items-center gap-2 px-5 py-2 rounded-xl text-sm font-semibold">
             <span className="material-symbols-outlined text-lg">download</span>
             Download CV
           </a>
@@ -58,7 +59,7 @@ const Navbar = () => {
           <Link href="#skills" className="hover:text-primary transition-colors" onClick={() => setMenuOpen(false)}>Skills</Link>
           <Link href="#about" className="hover:text-primary transition-colors" onClick={() => setMenuOpen(false)}>About</Link>
           <Link href="#contact" className="hover:text-primary transition-colors" onClick={() => setMenuOpen(false)}>Contact</Link>
-          <a href="#" className="btn-primary inline-flex items-center gap-2 px-5 py-2 rounded-xl text-sm font-semibold w-fit">
+          <a href={siteConfig.socials.cv} download className="btn-primary inline-flex items-center gap-2 px-5 py-2 rounded-xl text-sm font-semibold w-fit">
             <span className="material-symbols-outlined text-lg">download</span>
             Download CV
           </a>
